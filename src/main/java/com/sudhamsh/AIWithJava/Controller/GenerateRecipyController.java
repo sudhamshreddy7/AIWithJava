@@ -14,6 +14,6 @@ public class GenerateRecipyController {
     public String generateRecipy(@RequestParam(defaultValue = "any") String items,
                                      @RequestParam(defaultValue = "any") String cuisine,
                                  @RequestParam(defaultValue = "none") String restrictions){
-        return recipeService.createRecipe(items,cuisine,restrictions);
+        return recipeService.createRecipe(items,cuisine,restrictions).replace("#","").replace("*","");
     }
 }

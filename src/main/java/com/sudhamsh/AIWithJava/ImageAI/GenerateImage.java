@@ -16,8 +16,8 @@ public class GenerateImage {
                 new ImagePrompt(query,
                         OpenAiImageOptions.builder()
                                 .withQuality("standard")
-                                .withN(2)
-                                .withModel("dall-e-2")
+                                .withN(4)
+                                .withModel("dall-e-3")
                                 .withHeight(1024)
                                 .withWidth(1024).build())
 

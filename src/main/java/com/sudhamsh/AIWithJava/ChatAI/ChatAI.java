@@ -31,6 +31,6 @@ public class ChatAI {
                                 .withN(1)
                                 .build()
                 ));
-        return response.getResults().getFirst().getOutput().getContent();
+        return response.getResult().getOutput().getContent();
     }
 }
