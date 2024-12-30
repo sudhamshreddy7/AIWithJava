@@ -55,11 +55,11 @@
     - Open `application.properties`.
     - Add your OpenAI API key:
       ```properties
-      openai.api.key=your_openai_api_key
+      spring.ai.openai.api-key=<insert your key>
       ```
 3. Build and run the backend:
    ```bash
-   ./mvnw spring-boot:run
+   ./mvn install
    ```
    The backend server will run on `http://localhost:8080`.
 
