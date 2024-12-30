@@ -43,6 +43,7 @@
 - Node.js and npm
 - Spring Boot
 - OpenAI API key
+- Maven
 
 ### Backend Setup
 1. Clone the repository:
